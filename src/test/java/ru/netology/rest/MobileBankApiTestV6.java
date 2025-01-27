@@ -17,6 +17,7 @@ public class MobileBankApiTestV6 {
             .setContentType(ContentType.JSON)
             .log(LogDetail.ALL)
             .build();
+
     @Test
     void shouldReturnDemoAccounts() {
         // Given - When - Then
